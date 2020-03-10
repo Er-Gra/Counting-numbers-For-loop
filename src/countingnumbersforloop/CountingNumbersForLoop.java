@@ -45,6 +45,8 @@ public class CountingNumbersForLoop {
             System.out.println("You have chosen to count from 6000 to 1000 by 1000");
             for (int i=6000;i>=1000;i-=1000)
                 System.out.println(i);
+        } else {
+            System.out.println("Invalid input");
         }
     }
     
